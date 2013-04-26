@@ -1,0 +1,218 @@
+/*
+Theme Name: Skillery "Bones" Starter Theme #1
+Theme URI: http://skillery.com
+Author: Skillery LLC
+Author URI: http://skillery.com/
+Description: Starter files for simple custom themes without category or search pages.
+Version: 1.0
+License: All Rights Reserved.
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	}
+body {
+	background: #59BC47;
+	line-height: 1;
+	text-align: center;
+	font-family: "Chaparral Pro", Georgia, "Times New Roman", Roman, serif;
+	font-size: 16px;
+	color: #333;
+	}
+a {
+	color: #333;
+	}
+h1 {
+	font-size: 32px;
+	padding-bottom: 20px;
+	font-style: oblique;
+	}
+h2 {
+	font-size: 22px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	}
+img {
+	border: none;
+	}
+p {
+	line-height: 1.3em;
+	padding-bottom: 14px;
+	}
+p.next {
+	padding: 30px 0;
+	}
+ul {
+	list-style: inside;
+	padding-bottom: 12px;
+	line-height: 1.3em;
+	}
+li {
+	list-style: inside;
+	padding-bottom: 8px;
+	}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	font-size: 18px;
+	}
+form.wall {
+	text-align: center;
+	padding-top: 20px;
+	}
+input.txt, select.txt {
+	border: 2px solid #6FCBD8;
+	border-radius: 3px;
+	padding: 6px;
+	font-size: 22px;
+	color: #999;
+	font-weight: bold;
+	font-family: "Chaparral Pro", Georgia, "Times New Roman", Roman, serif;
+	}
+select.txt {
+	padding: 2px;
+	}
+input.txt2, select.txt2 {
+	border: 1px solid #666;
+	border-radius: 1px;
+	padding: 0px;
+	font-size: 14px;
+	color: #999;
+	font-family: "Chaparral Pro", Georgia, "Times New Roman", Roman, serif;
+	}
+.stat,
+table.list {
+	background: #E3F4F9;
+	border-radius: 6px;
+	border: 2px solid #6FCBD8;
+	}
+.stat {
+	text-align: center;
+	padding: 12px;
+	margin-bottom: 8px;
+	}
+.stat p.number {
+	font-size: 60px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	}
+table.list td,
+table.list th {
+	padding: 4px;
+	}
+thead { 
+	background: #6FCBD8;
+	color: #103235;
+	}
+.ar, th.ar {
+	text-align: right;
+	}
+form.wall input.txt {
+	width: 96%;
+	display: block;
+	margin: 0 auto 12px;
+	}
+input.btn {
+	border: #3270B7 1px solid;
+	background: #3270B7 top repeat-x url('assets/images/button.png');
+	border-radius: 3px;
+	padding: 4px 12px;
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+	font-family: "Chaparral Pro", Georgia, "Times New Roman", Roman, serif;
+	text-shadow: 1px 1px #3270B7;
+	cursor: pointer;
+	}
+#sky {
+	background: #A8E2EE url('assets/images/background.png') no-repeat center top;
+	padding-bottom: 40px;
+	}
+#clouds{
+	background: url('assets/images/clouds.png') no-repeat center top;
+	}
+#wrapper {
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+	}
+#horizon {
+	margin-top: -40px;
+	background: url('assets/images/horizon.png') repeat-x top;
+	padding-top: 60px;
+	min-height: 120px;
+	}
+header {
+	text-align: center;
+	}
+#top_nav {
+	height: 60px;
+	background: url('assets/images/top_menu.png') repeat-x top;
+	padding-bottom: 12px;
+	}
+#top_nav header {
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 8px;
+	}
+footer {
+	margin-top: 60px;
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom: 12px;
+	}
+#dashboard {
+	text-align: center;
+	}
+#fence {
+	margin-top: -12px;
+	background: url('assets/images/fence.png') repeat-x top;
+	height: 210px;
+	padding-top: 20px;
+	}
+.bigg_but {
+	cursor: pointer;
+	}
+.logout {
+	float: right;
+	color: white;
+	padding-top: 14px;
+	font-size: 12px;
+	}
+.copyright {
+	font-size: 11px;
+	color: #FFF;
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+	}
+.hide {
+	display: none;
+	}
+.knowledge_bubble {
+	background: url('assets/images/knowledge_bubble.png') no-repeat top center;
+	padding: 20px;
+	height: 125px;
+	}
+.knowledge_bubble h1 {
+	font-size: 22px;
+	}
